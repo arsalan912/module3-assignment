@@ -1,7 +1,7 @@
 body{
    font-size:16px;  
    color: #fff;
-   background-color: #61122f;
+   background-color: #7bd768;
    font-family:'Oxygen',sans-serif;
    font-weight: 700;
 }
@@ -11,7 +11,7 @@ body{
 }
 
 #header-nav {
-   background-color: black;
+   background-color: rgb(15, 5, 1);
    border-radius: 0;
    border: 0;
 }
