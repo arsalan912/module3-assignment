@@ -1,0 +1,73 @@
+body{
+   font-size:16px;  
+   color: #fff;
+   background-color: #61122f;
+   font-family:'Oxygen',sans-serif;
+   font-weight: 700;
+}
+#content-part{
+   background-color: gray;
+   padding: 10px;
+}
+
+#header-nav {
+   background-color: black;
+   border-radius: 0;
+   border: 0;
+}
+.navbar-brand {
+   padding-top: 25px;
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+   text-decoration: none;
+}
+.navbar-brand p {
+   color: #000;
+   text-transform: uppercase;
+   font-size: .7em;
+   margin-top: 15px;
+}
+.navbar-brand p span {
+   vertical-align: middle;
+}
+#nav-list {
+   margin-top: 10px;
+}
+#nav-list a {
+   color: #951c49;
+   text-align: center;
+}
+#nav-list a:hover {
+   background: #e7e7e7;
+}
+#nav-list a span{
+   font-size: 1.8em;
+}
+.glyphicon{
+   margin-right: 5px;
+}
+.main-content{
+   width: auto;
+   margin-right: 1em;
+   margin-left: 1em;
+}
+#logo{
+display: inline-block;
+}
+#btn{
+   margin-top: 22px;
+}
+ul.nav li:hover ,ul.nav li:active{
+   background-color: #fff;
+}
+ul#collabsable-nav{
+   margin: 0 15px;
+}
+#header-nav{
+   margin: 0;
+}
+@media screen and (min-width :768px){
+   ul.nav li{
+      margin: 10px 0;
+   }
+}
